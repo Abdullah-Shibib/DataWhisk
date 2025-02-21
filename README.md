@@ -26,3 +26,31 @@ Clone the repository:
 ```bash
 git clone https://github.com/Abdullah-Shibib/datawhisk.git
 cd datawhisk
+
+npm install playwright
+
+pip install transformers torch pandas scikit-learn matplotlib wordcloud
+
+Usage
+Scrape Reviews
+Run the Playwright script to extract Google Reviews:
+
+node scrape.js
+This will save reviews in the googreviews folder as JSON files.
+
+Analyze Reviews
+Run the Python script to process and analyze the reviews:
+
+python bert.py
+
+This will generate:
+
+Sentiment-based aspect ratings.
+Word cloud visualization.
+Improvement suggestions based on negative reviews.
+Output Files
+reviews_with_aspects.json: Reviews with sentiment-based aspect ratings.
+aspect_rating_summary.json: Average ratings for each aspect.
+improvement_suggestions.json: Keywords and improvement insights.
+
+Ensure you replace any placeholders or specific paths as necessary to match your project's structure and requirements.
