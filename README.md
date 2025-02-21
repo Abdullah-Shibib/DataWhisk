@@ -23,9 +23,9 @@ DataWhisk is a powerful tool designed to scrape Google Reviews using Playwright,
 
 Clone the repository:
 
-```bash
+bash
 git clone https://github.com/Abdullah-Shibib/datawhisk.git
-cd datawhisk
+cd datawhisk 
 
 npm install playwright
 
