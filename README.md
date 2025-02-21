@@ -20,7 +20,7 @@ The project leverages **Playwright (Node.js)** for web scraping and **Python (Sc
 ## Installation
 1. **Clone the repository**
    ```
-   git clone https://github.com/abaan-noman/datawhisk.git
+   git clone https://github.com/abdullah-shibib/datawhisk.git
    cd datawhisk
    ```
 
